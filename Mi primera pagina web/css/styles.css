@@ -1,0 +1,84 @@
+
+/* Estilos del título principal */
+h1 {
+  color: #3498db; /* Azul vibrante */
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Centrado del menú */
+nav {
+  text-align: center;
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+  list-style-type: none; /* Quita viñetas */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; /* Fondo oscuro */
+  display: inline-block;
+}
+
+/* Elementos individuales del menú */
+nav ul li {
+  float: left; /* Los pone en línea horizontal */
+}
+
+/* Enlaces del menú */
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Quita el subrayado */
+}
+
+/* Efecto hover sobre enlaces */
+nav ul li a:hover {
+  background-color: #111;
+}
+
+/* Formulario centrado con ancho personalizado */
+form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Contenedor del modelo Spline (3D) */
+#spline-wrapper {
+  width: 800px;
+  height: 500px;
+  margin: 40px auto; /* Centrado y espacio vertical */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 10px;
+}
+
+/* Ajustes del iframe (modelo 3D) */
+#spline-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Video de fondo que ocupa toda la pantalla */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Escala sin deformar */
+  z-index: -1; /* Detrás de todo */
+  max-width: 100%;
+}
+
